@@ -31,7 +31,7 @@ The ML-controlled crawling robot uses a Raspberry Pi and a single servo motor to
 - **Rotary Encoder**: Used to capture the robot’s displacement, essential for measuring the reward and evaluating performance.
 - **Temperature Sensor**: Monitors motor conditions, protecting hardware from overheating during extended training sessions.
 
-## Requirements
+### Requirements
 
 - **Hardware**:
   - Raspberry Pi with GPIO control
@@ -40,17 +40,6 @@ The ML-controlled crawling robot uses a Raspberry Pi and a single servo motor to
 - **Software**:
   - Python 3.x
   - Libraries: `numpy`, `matplotlib`, `RPi.GPIO`, `xlsxwriter`
- 
-## Installation
-
-### Clone the repository:
-`git clone https://github.com/yourusername/crawling-robot-ML.git`
-
-### Install required Python packages:
-`pip install numpy matplotlib xlsxwriter`
-
-## Hardware Setup
-Connect the hardware as specified in the code comments and set up Raspberry Pi GPIO accordingly.
 
 ## Usage
 
