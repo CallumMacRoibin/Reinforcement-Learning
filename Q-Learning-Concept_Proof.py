@@ -18,7 +18,7 @@ valid_actions = np.array([
     [1, 2, 3], [0, 1, 2, 3], [0, 2, 3], [1, 2, 3], [0, 1, 2, 3], [0, 2, 3],
     [1, 2, 3], [0, 1, 2, 3], [0, 2, 3], [1, 2, 3], [0, 1, 2, 3], [0, 2, 3],
     [1, 2], [0, 1, 2], [0, 2]
-])
+],dtype=object)
 
 transition_matrix = np.array([
     [-1, 1, -1, 3], [0, 2, -1, 4], [1, -1, -1, 5], [-1, 4, 0, 6],
@@ -87,7 +87,7 @@ for _ in range(loops2):
     elif step == 3:
         print("go down")
         current_state -= 3
-    actions.append(step)
+    actions.append(int(step))
     states.append(current_state)
 
 print("Actions Taken:", actions)
