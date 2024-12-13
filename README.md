@@ -4,6 +4,10 @@
 
 This project explores the application of Machine Learning (ML) in controlling a simple mechatronic system—a crawling robot powered by a single servo-driven arm. It draws comparisons between ML and Direct Programming (DP) approaches to examine the benefits and limitations of using ML in robotic movement control.
 
+<center>
+  <img src="./Images/Robot.png" alt = "Crawling Robot" />
+</center>
+
 The ML approach utilizes Q-learning, a reinforcement learning algorithm, to enable the robot to learn optimal movements autonomously through iterative trial and error. The goal is to maximize the robot's movement efficiency by adapting its actions based on reward feedback. This ML-based movement control is then evaluated against a traditional DP approach to compare performance metrics, specifically average velocity, development time, and skill requirements.
 
 ### Key Findings
@@ -16,6 +20,10 @@ The ML approach utilizes Q-learning, a reinforcement learning algorithm, to enab
 ### Code and Simulation
 
 The project consists of Python scripts for Q-learning-based ML training and testing on simulated states. Each state represents a possible configuration of the crawling robot's servo arm. The scripts train the robot to take actions (movements) that maximize cumulative rewards, with physical testing conducted on a Raspberry Pi.
+
+<center>
+  <img src="./Images/ML_Flow.png" alt = "Code Flow Logic" />
+</center>
 
 ### Code Features
 
